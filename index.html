@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>SSBF Framework</title>
+  <style id="style-injector"></style>
+  <script type="module" src="../loader.js"></script>
+  <normalize css="true"></normalize>
+  <lib static="true"></lib>
+</head>
+<body>
+<div data-template="navbar" data-instance-id="nav"></div>
+  <div data-template="hero" data-instance-id="hero"></div>
+<div data-template="footer" data-instance-id="footer"></div>
+<template id="footer">
+{
+    "text": "VAIOLabs"
+}
+</template>
+
+<template id="nav">
+{
+    "title": "VAIOLabs",
+    "link1": "about.html",
+    "link2": "contact.html",
+    "link3": "projects.html",
+    "link4": "sponsors.html",
+    "label1": "About",
+    "label2": "Contact",
+    "label3": "Projects",
+    "label4": "Sponsors"
+}
+</template>
+
+  <template id="hero">
+{
+    "title": "Hero",
+    "subtitle": "SSBF - Simple Site Build Framework",
+    "link": "#about",
+    "button-text": "Button"
+}
+</template>
+</body>
+</html>

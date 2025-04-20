@@ -1,0 +1,153 @@
+ /*
+  Author: ZLMTech
+  Version: BETA
+  License: MIT
+  */
+  
+  
+  
+  
+  /*Align*/
+  
+  .tc{
+      text-align: center;
+  }
+
+
+  .ic{
+    align-items: center;
+  }
+
+
+  /*Margin*/
+
+
+
+
+  .m-auto { margin: auto; }
+  .m-max { margin: 100%; }
+  .mr-auto {margin-right: auto; }
+  .mr-max { margin-right: 100%; }
+  .ml-auto {margin-left: auto; }
+  .ml-max { margin-left: 100%; }
+  .mt-auto { margin-top: auto; }
+  .mt-max { margin-top: 100%; }
+  .mb-auto {margin-bottom: auto; }
+  .mb-max { margin-bottom: 100%; }
+  
+
+
+  /*padding*/
+
+
+  .p-auto { padding: auto; }
+  .p-max { padding: 100%; }
+  .pr-auto { padding-right: auto; }
+  .pr-max { padding-right: 100%; }
+  .pl-auto { padding-left: auto; }
+  .pl-max { padding-left: 100%; }
+  .pt-auto { padding-top: auto; }
+  .pt-max { padding-top: 100%; }
+  .pb-auto {padding-bottom: auto; }
+  .pb-max { padding-bottom: 100%; }
+  
+
+  /*padding small*/
+  .ps { padding: 20px; }
+  /*padding medium*/
+  .pm { padding: 30px; }
+  /*padding large*/
+  .pl { padding: 40px; }
+
+  /*list style type*/
+
+
+  .lst-c {list-style-type: circle;}
+  .lst-s { list-style-type: square; }
+  .lst-ur { list-style-type: upper-roman; }
+  .lst-la { list-style-type: lower-alpha; }
+  .lst-none { list-style-type: none; }
+
+
+
+  /*text decoration*/
+
+
+  .td-none { text-decoration: none; }
+  .td-ol { text-decoration: overline; }
+  .td-lt { text-decoration: line-through; }
+  .td-u { text-decoration: underline; }
+  .td-uo { text-decoration: underline overline; }
+
+
+
+
+  /*hover*/
+
+
+  .hv-underline:hover { text-decoration: underline; }
+
+
+  .ov-hidden { overflow: hidden; }
+
+
+
+  /*background color*/
+
+
+
+  .bc-red{
+    background-color: red;
+  }
+
+
+
+
+/*color*/
+
+.c-black{
+color: black
+}
+
+  /*display*/
+
+
+
+  .iblock{
+    display: inline-block;
+  }
+
+  .block{
+    display: block;
+  }
+
+
+  .inline{
+    display: inline;
+  }
+
+  .flex{
+    display: flex;
+  }
+
+/*flex direction*/
+
+
+  .fd-column{
+    flex-direction: column;
+  }
+
+
+/*justify content*/
+.jc-spacebetween{
+  justify-content: space-between;
+}
+
+/*text transform*/
+
+
+.tt-uppercase{
+  text-transform: uppercase;
+}
+
+/*line height*/

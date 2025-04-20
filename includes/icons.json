@@ -1,0 +1,6 @@
+ {
+    "scripts": [
+        "./includes/icons/js/lucide.min.js",
+        "./includes/icons/js/main.js"
+    ]
+}

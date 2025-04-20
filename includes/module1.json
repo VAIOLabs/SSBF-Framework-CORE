@@ -1,0 +1,5 @@
+{
+    "scripts": [
+        "./includes/module1/assets/js/alert.js"
+    ]
+}
