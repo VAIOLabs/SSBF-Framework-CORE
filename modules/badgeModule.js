@@ -56,7 +56,7 @@ export async function badgeModule() {
 
   // Funkcja przekierowania po kliknięciu plakietki
   badge.addEventListener('click', function() {
-    window.location.href = 'https://github.com/MrDevelop636/SSBF-Framework'; // Zamień na odpowiednią stronę
+    window.location.href = 'https://github.com/VAIOLabs/SSBF-Framework-CORE'; // Zamień na odpowiednią stronę
   });
 
   // Dodanie plakietki do body
